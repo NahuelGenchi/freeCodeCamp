@@ -16,3 +16,13 @@ In this Responsive Web Design Certification, I learned the languages that develo
   You can see this project by [clicking here](responsive_web_design/survey_form)
   </p>
 </details>
+<details>
+  <summary>
+    <h3>Tribute Page</h3>
+  </summary>
+  <p>
+  I built a tribute page to Dr. Norman Borlaug.
+
+  You can see this project by [clicking here](responsive_web_design/tribute_page)
+  </p>
+</details>
