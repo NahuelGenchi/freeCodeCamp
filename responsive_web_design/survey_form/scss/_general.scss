@@ -12,4 +12,13 @@ body {
     background-color: #2A2A40;
     color: white;
     font-family: monospace, Arial;
+    input::placeholder {
+        font-family: monospace, Arial;
+    }
+    option {
+        font-family: monospace, Arial;
+    }
+    button[type=submit] {
+        font-family: monospace, Arial;
+    }
 }

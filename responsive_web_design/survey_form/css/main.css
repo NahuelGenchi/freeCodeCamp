@@ -13,6 +13,15 @@ body {
   color: white;
   font-family: monospace, Arial;
 }
+body input::placeholder {
+  font-family: monospace, Arial;
+}
+body option {
+  font-family: monospace, Arial;
+}
+body button[type=submit] {
+  font-family: monospace, Arial;
+}
 
 header {
   min-height: 25vh;
@@ -31,6 +40,51 @@ header p {
 
 main {
   min-height: 70vh;
+  width: 700px;
+  margin: 0 auto;
+}
+main form {
+  padding: 25px 50px 40px 50px;
+  background-color: #26263A;
+}
+main form fieldset {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 25px 0;
+}
+main form fieldset input, main form fieldset select, main form fieldset textarea {
+  margin: 25px 0;
+  padding: 10px;
+  width: 100%;
+}
+main form fieldset .radio {
+  margin: 25px 0;
+}
+main form fieldset input[type=radio] {
+  margin: 10px 0;
+  width: inherit;
+}
+main form fieldset input[type=checkbox] {
+  margin: 10px 0;
+  width: inherit;
+}
+main form fieldset textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+main form fieldset .minimized {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  color: gray;
+}
+main form button[type=submit] {
+  height: 50px;
+  width: 100%;
+  background-color: #207EAA;
+  color: white;
+  font-weight: bold;
+  border: none;
 }
 
 footer {
