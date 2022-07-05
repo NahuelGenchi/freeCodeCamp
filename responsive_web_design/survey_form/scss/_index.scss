@@ -20,10 +20,12 @@ main {
             input[type=radio] {
                 margin: 10px 0;
                 width: inherit;
+                cursor: pointer;
             }
             input[type=checkbox] {
                 margin: 10px 0;
                 width: inherit;
+                cursor: pointer;
             }
             textarea {
                 width: 100%;
@@ -40,6 +42,7 @@ main {
             height: 50px;
             width: 100%;
             background-color: #207EAA;
+            cursor: pointer;
             color: white;
             font-weight: bold;
             border: none;

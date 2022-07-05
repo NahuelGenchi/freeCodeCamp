@@ -63,10 +63,12 @@ main form fieldset .radio {
 main form fieldset input[type=radio] {
   margin: 10px 0;
   width: inherit;
+  cursor: pointer;
 }
 main form fieldset input[type=checkbox] {
   margin: 10px 0;
   width: inherit;
+  cursor: pointer;
 }
 main form fieldset textarea {
   width: 100%;
@@ -82,6 +84,7 @@ main form button[type=submit] {
   height: 50px;
   width: 100%;
   background-color: #207EAA;
+  cursor: pointer;
   color: white;
   font-weight: bold;
   border: none;
