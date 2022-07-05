@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +8,10 @@
 
 :root {
   font-size: 16px;
+}
+
+body {
+  color: rgb(68, 68, 68);
 }
 
 header {
@@ -23,6 +28,52 @@ header h1 {
 header p {
   margin-top: 2vh;
   font-style: italic;
+}
+
+main {
+  background-color: #EEEEEE;
+  min-height: 120vh;
+}
+main #img-div {
+  padding: 8vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+}
+main #img-div #img-caption {
+  margin-top: 2vh;
+}
+main #tribute-info {
+  width: 40%;
+  margin: 0 auto;
+  padding: 10vh 0;
+  text-align: left;
+}
+main #tribute-info h3 {
+  text-align: center;
+}
+main #tribute-info ul {
+  margin: 8vh 0;
+}
+main #tribute-info ul li {
+  margin: 3vh 0;
+}
+main #tribute-info ul li .year::after {
+  content: " - ";
+  font-weight: lighter;
+}
+main #tribute-info figure {
+  font-style: italic;
+}
+main #tribute-info figure figcaption {
+  margin-top: 5vh;
+}
+main #tribute-info figure figcaption::before {
+  content: "— ";
+}
+
+footer {
+  min-height: 10vh;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+main {
+    background-color: #EEEEEE;
+    min-height: 120vh;
+    #img-div {
+        padding: 8vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #FFF;
+        #img-caption {
+            margin-top: 2vh;
+        }
+    }
+    #tribute-info {
+        width: 40%;
+        margin: 0 auto;
+        padding: 10vh 0;
+        text-align: left;
+        h3 {
+            text-align: center;
+        }
+        ul {
+            margin: 8vh 0;
+            li {
+                margin: 3vh 0;
+                .year::after {
+                    content: " - ";
+                    font-weight: lighter;
+                }
+            }
+        }
+        figure {
+            font-style: italic;
+            figcaption {
+                margin-top: 5vh;
+            }
+            figcaption::before {
+                content: "— ";
+            }
+        }
+    }
+}
