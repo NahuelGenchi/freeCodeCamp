@@ -10,4 +10,4 @@ In this Responsive Web Design Certification, I learned the languages that develo
 
 I built a survey form to collect data from users.
 
-You can see this project by [clicking here](Responsive Web Design/Survey Form)
+You can see this project by [clicking here](responsive_web_design/survey_form)
