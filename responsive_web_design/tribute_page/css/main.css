@@ -74,6 +74,18 @@ main #tribute-info figure figcaption::before {
 
 footer {
   min-height: 10vh;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer a {
+  color: rgb(82, 43, 134);
+  text-decoration: none;
+}
+footer a:hover {
+  color: rgb(59, 30, 97);
 }
 
 /*# sourceMappingURL=main.css.map */
