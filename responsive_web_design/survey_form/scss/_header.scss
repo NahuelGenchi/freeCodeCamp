@@ -1,0 +1,14 @@
+header {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 2.2rem;
+    }
+    p {
+        margin-top: 10px;
+        font-style: italic;
+    }
+}
