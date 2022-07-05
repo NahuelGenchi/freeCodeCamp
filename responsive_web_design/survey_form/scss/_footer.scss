@@ -1,3 +1,15 @@
 footer {
-    min-height: 10vh;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    a {
+        color: rgb(180, 180, 180);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        color: white;
+    }
 }

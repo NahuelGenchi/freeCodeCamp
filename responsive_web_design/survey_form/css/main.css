@@ -88,7 +88,19 @@ main form button[type=submit] {
 }
 
 footer {
-  min-height: 10vh;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+footer a {
+  color: rgb(180, 180, 180);
+  text-decoration: none;
+  font-weight: bold;
+}
+footer a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
