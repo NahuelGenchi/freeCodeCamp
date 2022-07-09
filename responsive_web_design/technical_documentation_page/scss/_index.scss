@@ -2,4 +2,36 @@
     height: 100vh;
     width: 75vw;
     overflow-y: scroll;
+    padding: 3vw 2vw 3vw 3vw;
+    .main-section {
+        header {
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+        p {
+            margin-top: 4vh;
+        }
+        code {
+            margin-top: 3vh;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+            background-color: rgb(29, 29, 29);
+            color: white;
+
+        }
+    }
+    .main-section:not(:last-of-type) {
+        margin-bottom: 5vh;
+    }
+    ul {
+        margin-left: 4vw;
+        margin-top: 4vh;
+        li {
+            margin: 15px 0;
+            ul {
+                margin-top: inherit;
+            }
+        }
+    }
 }
