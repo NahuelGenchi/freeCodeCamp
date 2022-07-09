@@ -93,4 +93,37 @@ body {
   margin-top: inherit;
 }
 
+@media (max-width: 1024px) {
+  body {
+    flex-direction: column;
+  }
+  body #navbar {
+    height: 35vh;
+    width: 100vw;
+  }
+  body #navbar header {
+    min-height: 15vh;
+  }
+  body #navbar ul {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  body #navbar ul a {
+    height: 100%;
+    width: 200px;
+    display: flex;
+    align-items: center;
+  }
+  body #navbar ul a li {
+    border-top: none;
+    height: 100%;
+    width: 200px;
+  }
+  body #navbar ul a:not(:last-of-type) {
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

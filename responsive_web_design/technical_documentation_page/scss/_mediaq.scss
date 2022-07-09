@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    body {
+        flex-direction: column;
+        #navbar {
+            height: 35vh;
+            width: 100vw;
+            header {
+                min-height: 15vh;
+            }
+            ul {
+                min-height: 10vh;
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid rgba(128, 128, 128, 0.50);
+                a {
+                    height: 100%;
+                    width: 200px;
+                    display: flex;
+                    align-items: center;
+                    li {
+                        border-top: none;
+                        height: 100%;
+                        width: 200px;
+                    }
+                }
+                a:not(:last-of-type) {
+                    border-right: 1px solid rgba(128, 128, 128, 0.50);
+                }
+            }
+        }
+    }
+}
