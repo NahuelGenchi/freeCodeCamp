@@ -136,18 +136,9 @@
         <section class="main-section" id="hello_world">
             <header>Hello world</header>
             <article>
-                <p>
-                    To get started with writing JavaScript, open the Scratchpad and write
-                    your first "Hello world" JavaScript code:
-                </p>
-                <code>
-                    function greetMe(yourName) { alert("Hello " + yourName); }
-                    greetMe("World");
-                </code>
-                <p>
-                    Select the code in the pad and hit Ctrl+R to watch it unfold in your
-                    browser!
-                </p>
+                <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); } greetMe("World");</code>
+                <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
             </article>
         </section>
         <section class="main-section" id="variables">
@@ -173,37 +164,16 @@
         <section class="main-section" id="declaring_variables">
             <header>Declaring variables</header>
             <article>
-                <p>
-                    You can declare a variable in three ways:
-                </p>
-                <p>
-                    With the keyword var. For example,
-                </p>
+                <p>You can declare a variable in three ways:</p>
+                <p>With the keyword var. For example,</p>
                 <code>var x = 42.</code>
-                <p>
-                    This syntax can be used to declare both local and global variables.
-                </p>
-                <p>
-                    By simply assigning it a value. For example,
-                </p>
-                <code>
-                    x = 42.
-                </code>
-                <p>
-                    This always declares a global variable. It
-                    generates a strict JavaScript warning. You shouldn't use this
-                    variant.
-                </p>
-                <p>
-                    With the keyword let. For example,
-                </p>
-                <code>
-                    let y = 13.
-                </code>
-                <p>
-                    This syntax can be used to declare a block scope local variable.
-                    See Variable scope below.
-                </p>
+                <p>This syntax can be used to declare both local and global variables.</p>
+                <p>By simply assigning it a value. For example,</p>
+                <code>x = 42.</code>
+                <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
+                <p>With the keyword let. For example,</p>
+                <code>let y = 13.</code>
+                <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
             </article>
         </section>
         <section class="main-section" id="variable_scope">
@@ -231,8 +201,7 @@
                     ECMAScript 2015.
                 </p>
 
-                <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-                  not defined</code>
+                <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
             </article>
         </section>
         <section class="main-section" id="global_variables">
@@ -263,9 +232,7 @@
                     and can contain alphabetic, numeric, or underscore characters.
                 </p>
 
-                <code>
-                    const PI = 3.14;
-                </code>
+                <code>const PI = 3.14;</code>
                 <p>
                     A constant cannot change value through assignment or be re-declared
                     while the script is running. It has to be initialized to a value.
@@ -279,19 +246,14 @@
                     You cannot declare a constant with the same name as a function or
                     variable in the same scope. For example:
                 </p>
-                <code>
-                    // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-                  WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-                  //statements }
+                <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;
+                    // THIS WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements }
                 </code>
                 <p>
                     However, object attributes are not protected, so the following
                     statement is executed without problems.
                 </p>
-                <code>
-                    const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-                    "otherValue";
-                </code>
+                <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
             </article>
         </section>
         <section class="main-section" id="data_types">
@@ -335,8 +297,7 @@
                     You may also compound the statements using else if to have multiple
                     conditions tested in sequence, as follows:
                 </p>
-                <code>
-                    if (condition_1) { statement_1; } else if (condition_2) {
+                <code>if (condition_1) { statement_1; } else if (condition_2) {
                     statement_2; } else if (condition_n) { statement_n; } else {
                     statement_last; }
                 </code>
@@ -347,8 +308,7 @@
                     general, it's good practice to always use block statements, especially
                     when nesting if statements:
                 </p>
-                <code>
-                    if (condition) { statement_1_runs_if_condition_is_true;
+                <code>if (condition) { statement_1_runs_if_condition_is_true;
                     statement_2_runs_if_condition_is_true; } else {
                     statement_3_runs_if_condition_is_false;
                     statement_4_runs_if_condition_is_false; }
@@ -358,17 +318,13 @@
                     expression, because the assignment can be confused with equality when
                     glancing over the code. For example, do not use the following code:
                 </p>
-                <code>
-                    if (x = y) { /* statements here */ }
-                </code>
+                <code>if (x = y) { /* statements here */ }</code>
                 <p>
                     If you need to use
                     an assignment in a conditional expression, a common practice is to put
                     additional parentheses around the assignment. For example:
                 </p>
-                <code>
-                    if ((x = y)) { /* statements here */ }
-                </code>
+                <code>if ((x = y)) { /* statements here */ }</code>
             </article>
         </section>
         <section class="main-section" id="while_statement">

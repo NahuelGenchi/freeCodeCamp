@@ -70,12 +70,17 @@ body {
   margin-top: 4vh;
 }
 #main-doc .main-section code {
-  margin-top: 3vh;
-  padding: 10px;
-  border-radius: 5px;
   display: block;
-  background-color: rgb(29, 29, 29);
-  color: white;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px 15px 15px 20px;
+  margin-top: 4vh;
+  border-radius: 5px;
 }
 #main-doc .main-section:not(:last-of-type) {
   margin-bottom: 5vh;
