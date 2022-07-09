@@ -8,6 +8,54 @@ body {
   font-family: "Merriweather", serif;
   background-color: white;
   color: rgb(29, 29, 29);
+  display: flex;
+}
+
+#navbar {
+  height: 100vh;
+  width: 25vw;
+  border-right: 1px solid rgba(128, 128, 128, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+#navbar header {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+#navbar ul {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+#navbar ul li {
+  border-top: 1px solid rgba(128, 128, 128, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: background-color 0.3s;
+}
+#navbar ul li a {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+#navbar ul li:hover {
+  background-color: black;
+  color: white;
+}
+#navbar ul li:hover a {
+  color: white;
+}
+
+#main-doc {
+  height: 100vh;
+  width: 75vw;
+  overflow-y: scroll;
 }
 
 /*# sourceMappingURL=main.css.map */
