@@ -2,13 +2,14 @@
     body {
         flex-direction: column;
         #navbar {
-            height: 35vh;
+            height: 30%;
             width: 100vw;
+            justify-content: space-between;
             header {
-                min-height: 15vh;
+                min-height: 50%;
             }
             ul {
-                min-height: 10vh;
+                min-height: 50%;
                 display: flex;
                 align-items: center;
                 border-bottom: 1px solid rgba(128, 128, 128, 0.50);
@@ -27,6 +28,10 @@
                     border-right: 1px solid rgba(128, 128, 128, 0.50);
                 }
             }
+        }
+        #main-doc {
+            height: 70%;
+            width: 100vw;
         }
     }
 }

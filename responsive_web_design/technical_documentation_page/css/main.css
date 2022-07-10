@@ -16,8 +16,8 @@ body {
 }
 
 #navbar {
-  height: 100vh;
-  width: 25vw;
+  height: 100%;
+  width: 25%;
   border-right: 1px solid rgba(128, 128, 128, 0.5);
   display: flex;
   flex-direction: column;
@@ -54,8 +54,8 @@ body {
 }
 
 #main-doc {
-  height: 100vh;
-  width: 75vw;
+  height: 100%;
+  width: 75%;
   overflow-y: scroll;
   padding: 3vw 2vw 3vw 3vw;
 }
@@ -98,14 +98,15 @@ body {
     flex-direction: column;
   }
   body #navbar {
-    height: 35vh;
+    height: 30%;
     width: 100vw;
+    justify-content: space-between;
   }
   body #navbar header {
-    min-height: 15vh;
+    min-height: 50%;
   }
   body #navbar ul {
-    min-height: 10vh;
+    min-height: 50%;
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgba(128, 128, 128, 0.5);
@@ -123,6 +124,10 @@ body {
   }
   body #navbar ul a:not(:last-of-type) {
     border-right: 1px solid rgba(128, 128, 128, 0.5);
+  }
+  body #main-doc {
+    height: 70%;
+    width: 100vw;
   }
 }
 
