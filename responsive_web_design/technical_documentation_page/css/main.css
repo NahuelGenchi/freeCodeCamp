@@ -98,7 +98,7 @@ body {
     flex-direction: column;
   }
   body #navbar {
-    height: 30%;
+    height: 25%;
     width: 100vw;
     justify-content: space-between;
   }
@@ -126,8 +126,13 @@ body {
     border-right: 1px solid rgba(128, 128, 128, 0.5);
   }
   body #main-doc {
-    height: 70%;
+    height: 75%;
     width: 100vw;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  body #main-doc code {
+    overflow-x: scroll;
   }
 }
 

@@ -2,7 +2,7 @@
     body {
         flex-direction: column;
         #navbar {
-            height: 30%;
+            height: 25%;
             width: 100vw;
             justify-content: space-between;
             header {
@@ -30,8 +30,13 @@
             }
         }
         #main-doc {
-            height: 70%;
+            height: 75%;
             width: 100vw;
+            padding: 20px;
+            padding-bottom: 50px;
+            code {
+                overflow-x: scroll;
+            }
         }
     }
 }
