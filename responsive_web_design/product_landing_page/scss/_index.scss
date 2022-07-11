@@ -1,0 +1,51 @@
+#hero {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    #form {
+        height: 20vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        #email, .btn {
+            padding: 2vh;
+        }
+        .btn {
+            background-color: #fde2bf;
+            border: 1px solid gray;
+        }
+    }
+}
+
+.container {
+    #features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 10vh;
+        .grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .icon {
+                height: 125px;
+                width: 20vw;
+                color: orangered;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .desc {
+                height: 125px;
+                width: 60vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+    }
+}

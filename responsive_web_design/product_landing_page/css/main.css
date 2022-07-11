@@ -10,12 +10,10 @@
 
 header {
   min-height: 15vh;
-  position: fixed;
-  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: #f7d4a7;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 header .logo #header-img {
@@ -39,9 +37,54 @@ header #nav-bar ul li a:hover {
   font-size: 1.3rem;
 }
 
-.header-container {
-  min-height: 15vh;
-  width: 100vw;
+#hero {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#hero #form {
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#hero #form #email, #hero #form .btn {
+  padding: 2vh;
+}
+#hero #form .btn {
+  background-color: #fde2bf;
+  border: 1px solid gray;
+}
+
+.container #features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10vh;
+}
+.container #features .grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container #features .grid .icon {
+  height: 125px;
+  width: 20vw;
+  color: orangered;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container #features .grid .desc {
+  height: 125px;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */

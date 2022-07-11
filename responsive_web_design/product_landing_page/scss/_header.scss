@@ -1,11 +1,9 @@
 header {
     min-height: 15vh;
-    position: fixed;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: antiquewhite;
+    background-color: #f7d4a7;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     .logo {
         #header-img {
@@ -33,9 +31,4 @@ header {
             }
         }
     }
-}
-
-.header-container {
-    min-height: 15vh;
-    width: 100vw;
 }
