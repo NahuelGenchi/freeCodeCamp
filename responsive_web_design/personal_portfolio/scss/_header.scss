@@ -1,0 +1,35 @@
+.nav {
+    min-height: 15vh;
+    width: 100vw;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .portfolio-logo {
+        width: 12vw;
+        margin-left: 10vw;
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+            font-size: 1.5rem;
+        }
+    }
+    .nav-list {
+        width: 30%;
+        margin-right: 10vw;
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        color: rgb(201, 201, 201);
+        font-weight: lighter;
+        font-size: 1.3rem;
+        li {
+            a {
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+}
