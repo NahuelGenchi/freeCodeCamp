@@ -1,0 +1,30 @@
+body {
+    .welcome-section {
+        min-height: 85vh;
+        display: flex;
+        justify-content: center;
+        .about-text {
+            width: 40vw;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            h1 {
+                font-size: 5rem;
+                margin-top: 20vh;
+                span {
+                    color: $blue;
+                }
+            }
+            p {
+                font-size: 1.5rem;
+                margin-top: 37vh;
+                span {
+                    color: $blue;
+                }
+            }
+            h1, p {
+                position: absolute;
+            }
+        }
+    }
+}
