@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #000B1B;
+  background-color: #111111;
   color: white;
 }
 
@@ -45,12 +45,18 @@ body {
 .nav .nav-list li a {
   color: inherit;
   text-decoration: none;
+  transition: color 0.5s;
+}
+.nav .nav-list li a:hover {
+  color: white;
 }
 
+@keyframes example {}
 body .welcome-section {
   min-height: 85vh;
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(180deg, black, #111111, #111111, #111111);
 }
 body .welcome-section .about-text {
   width: 40vw;

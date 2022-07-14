@@ -3,6 +3,13 @@ body {
         min-height: 85vh;
         display: flex;
         justify-content: center;
+        background-image: linear-gradient(
+            180deg,
+            black,
+            $background,
+            $background,
+            $background
+            );
         .about-text {
             width: 40vw;
             text-align: center;
