@@ -34,4 +34,51 @@ body {
             }
         }
     }
+    .projects-section {
+        min-height: 200vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #141414;
+        .projects-section-header {
+            margin-top: 20vh;
+            font-size: 3rem;
+        }
+        .projects-grid {
+            .project-container {
+                height: 60vh;
+                width: 30vw;
+                .project-tile {
+                    color: inherit;
+                    text-decoration: none;
+                    .project-image {
+                        height: calc(0.80 * 60vh); 
+                        max-width: 100%;
+                        display: block;
+                    }
+                    .project-title {
+                        height: calc(0.20 * 60vh); // CALC WIDTH FROM CONTAINER
+                        text-align: center;
+                        font-size: 1.5rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color: rgb(44, 44, 44);
+                        .code {
+                            font-size: 1.2rem;
+                            margin: 0 10px;
+                            opacity: 0%;
+                            transition: opacity 0.5s;
+                        }
+                    }
+                }
+                .project-tile:hover {
+                    .code {
+                        opacity: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
