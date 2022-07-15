@@ -56,7 +56,6 @@ body .welcome-section {
   min-height: 85vh;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(180deg, black, #111111, #111111, #111111);
 }
 body .welcome-section .about-text {
   width: 40vw;
@@ -82,7 +81,7 @@ body .welcome-section .about-text h1, body .welcome-section .about-text p {
   position: absolute;
 }
 body .projects-section {
-  min-height: 200vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,12 +89,13 @@ body .projects-section {
   background-color: #141414;
 }
 body .projects-section .projects-section-header {
-  margin-top: 20vh;
+  margin-top: 15vh;
   font-size: 3rem;
 }
 body .projects-section .projects-grid .project-container {
   height: 60vh;
   width: 30vw;
+  border: 2px solid rgb(110, 110, 110);
 }
 body .projects-section .projects-grid .project-container .project-tile {
   color: inherit;
@@ -107,7 +107,7 @@ body .projects-section .projects-grid .project-container .project-tile .project-
   display: block;
 }
 body .projects-section .projects-grid .project-container .project-tile .project-title {
-  height: 12vh;
+  height: 11.4vh;
   text-align: center;
   font-size: 1.5rem;
   display: flex;
@@ -123,6 +123,14 @@ body .projects-section .projects-grid .project-container .project-tile .project-
 }
 body .projects-section .projects-grid .project-container .project-tile:hover .code {
   opacity: 100%;
+}
+body .projects-section .btn-show-all {
+  color: rgb(201, 201, 201);
+  text-decoration: none;
+  transition: color 0.5s;
+}
+body .projects-section .btn-show-all:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
