@@ -146,4 +146,44 @@ body .projects-section .projects-container .btn-show-all:hover {
   color: white;
 }
 
+.contact-section {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-section .contact-section-header h2 {
+  font-size: 4rem;
+}
+.contact-section .contact-section-header p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+.contact-section .contact-links {
+  margin-top: 10vh;
+  width: 50vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact-section .contact-links a {
+  font-size: 1.5rem;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s ease-out;
+}
+.contact-section .contact-links a ion-icon {
+  font-size: 2rem;
+}
+.contact-section .contact-links .logo-linkedinLink {
+  width: 138px;
+}
+.contact-section .contact-links a:hover {
+  transform: translateY(8px);
+}
+
 /*# sourceMappingURL=main.css.map */
